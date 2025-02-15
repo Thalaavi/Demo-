@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+import joblib.load()
 
 vectorizer = joblib.load("vectorizer.jb")
 model = joblib.load("lr_model.jb")
